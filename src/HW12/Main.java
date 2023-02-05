@@ -20,5 +20,7 @@ public class Main {
         generationP.setPublishingYear(2000);
         System.out.println("idiot.getPublishingYear() = " + idiot.getPublishingYear());
         System.out.println("generationP.getPublishingYear() = " + generationP.getPublishingYear());
+        System.out.println(pelevin.equals(dostoevski));
+        System.out.println(idiot.equals(generationP));
     }
 }

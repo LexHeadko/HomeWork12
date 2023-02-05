@@ -38,4 +38,8 @@ public class Book {
                 && Objects.equals(this.author, other.author)
                 && Objects.equals(this.publishingYear, other.publishingYear);
     }
+
+    public int hashCode() {
+        return Objects.hash(name, author, publishingYear);
+    }
 }

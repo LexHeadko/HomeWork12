@@ -27,4 +27,8 @@ public class Author {
         return Objects.equals(this.firstName, other.firstName)
                 && Objects.equals(this.secondName, other.secondName);
     }
+
+    public int hashCode() {
+        return Objects.hash(this.firstName, this.secondName);
+    }
 }

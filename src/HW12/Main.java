@@ -7,9 +7,15 @@ public class Main {
         Book idiot = new Book("Идиот", dostoevski, 1869);
         Book generationP = new Book("Generation P", pelevin, 1999);
         System.out.print(idiot.getName() + " ");
-        System.out.print(idiot.getAuthor() + " ");
+        System.out.print(idiot.getAuthor().getFirstName() + " ");
+        System.out.print(idiot.getAuthor().getSecondName() + " ");
         System.out.println(idiot.getPublishingYear());
-
+        System.out.printf(
+                "'%s' Автор: %s %s, год %d%n",
+                generationP.getName(),
+                generationP.getAuthor().getFirstName(),
+                generationP.getAuthor().getSecondName(),
+                generationP.getPublishingYear());
         idiot.setPublishingYear(1870);
         generationP.setPublishingYear(2000);
         System.out.println("idiot.getPublishingYear() = " + idiot.getPublishingYear());

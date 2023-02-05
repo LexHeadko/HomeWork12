@@ -1,12 +1,12 @@
 package HW12;
 
 public class Book {
-    private String name;
-    private Author author;
+    private final String name;
+    private final Author author;
     private int publishingYear;
     public Book(String name, Author author, int publishingYear) {
         this.name = name;
-        this.author = ;
+        this.author = author;
         this.publishingYear = publishingYear;
     }
 

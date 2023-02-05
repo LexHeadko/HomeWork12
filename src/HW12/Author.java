@@ -1,8 +1,8 @@
 package HW12;
 
 public class Author {
-    private String firstName;
-    private String secondName;
+    private final String firstName;
+    private final String secondName;
 
     public Author(String firstName, String secondName) {
         this.firstName = firstName;

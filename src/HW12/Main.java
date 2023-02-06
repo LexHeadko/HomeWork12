@@ -26,5 +26,7 @@ public class Main {
         System.out.println(idiot.hashCode());
         System.out.println(pelevin.hashCode());
         System.out.println(dostoevski.hashCode());
+        System.out.println(idiot);
+        System.out.println(dostoevski);
     }
 }

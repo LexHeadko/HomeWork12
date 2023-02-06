@@ -42,4 +42,8 @@ public class Book {
     public int hashCode() {
         return Objects.hash(name, author, publishingYear);
     }
+
+    public String toString() {
+        return this.name + " " + this.author + " " + this.publishingYear;
+    }
 }
